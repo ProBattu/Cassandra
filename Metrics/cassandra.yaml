@@ -3,7 +3,7 @@ host: localhost:7073
 ssl: False
 user:
 password:
-listenAddress: 0.0.0.0
+listenAddress: 127.0.0.1
 listenPort: 7073
 # Regular expression to match environment variable names that will be added
 # as labels to all data points. The name of the label will be either
