@@ -1,6 +1,10 @@
 ---
-lowercaseOutputLabelNames: true
-lowercaseOutputName: true
+host: localhost:7073
+ssl: False
+user:
+password:
+listenAddress: 0.0.0.0
+listenPort: 7073
 # Regular expression to match environment variable names that will be added
 # as labels to all data points. The name of the label will be either
 # $1 from the regex below, or the entire environment variable name if no match groups are defined
@@ -62,4 +66,3 @@ maxScrapFrequencyInSec:
     - .*:snapshotssize:.*
     - .*:estimated.*
     - .*:totaldiskspaceused:.*
-
